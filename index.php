@@ -137,7 +137,7 @@
 		<a href="https://www.facebook.com/sharer/sharer.php?u=https://intense-tundra-60037.herokuapp.com/" class="facebook-button" onclick="window.open(this.href, 'Share', 'scrollbars=no,width=500,height=280'); return false;">
 			<span class="share-button"><?php echo file_get_contents('assets/img/share-fb.svg'); ?>Share</span>
 			<span class="share-count">1.7k</span>
-			<!-- Source (Dec 5, 2018): https://graph.facebook.com/?id=http://uinames.com + https://graph.facebook.com/?id=https://intense-tundra-60037.herokuapp.com/ -->
+			<!-- Source (Dec 5, 2018): https://graph.facebook.com/?id=http://intense-tundra-60037.herokuapp.com + https://graph.facebook.com/?id=https://intense-tundra-60037.herokuapp.com/ -->
 		</a>
 		
 		<a href="https://github.com/markhealey/uinames/" class="github-button" target="_blank">
@@ -154,7 +154,7 @@
 		</div>
 		<div id="info-panel" style="display: block;">
 			<h2>About</h2>
-			<p><a href="https://intense-tundra-60037.herokuapp.com/">uinames.com</a> is a simple tool to generate fake names for use in designs and mockups. Made by <a href="https://twitter.com/thomweerd" target="_blank">Thom</a>.</p>
+			<p><a href="https://intense-tundra-60037.herokuapp.com/">intense-tundra-60037.herokuapp.com</a> is a simple tool to generate fake names for use in designs and mockups. Made by <a href="https://twitter.com/thomweerd" target="_blank">Thom</a>.</p>
 			
 			<h2>Elsewhere</h2>
 			<p>Many have published about the project, including <a href="https://tympanus.net/codrops/collective/collective-96/" target="_blank">Codrops</a>, <a href="https://speckyboy.com/40-tiny-web-based-apps-tools-web-designers/" target="_blank">Speckyboy</a>, <a href="https://www.smashingmagazine.com/smashing-newsletter-issue-new-year-special-edition-2013/" target="_blank">Smashing Magazine</a>, <a href="https://sidebar.io/2013/12/26" target="_blank">Sidebar</a>, <a href="https://www.webdesignerdepot.com/2014/02/whats-new-for-designers-february-2014/" target="_blank">Webdesigner Depot</a>, <a href="https://www.producthunt.com/tech/uinames" target="_blank">Product Hunt</a>, <a href="https://news.layervault.com/stories/12511-ui-names" target="_blank">LayerVault</a>, <a href="https://oozled.com/resources/just-handy" target="_blank">Oozled</a> and <a href="https://thenextweb.com/dd/2015/02/18/300-awesome-free-things-massive-list-free-resources-know/" target="_blank">The Next Web</a>.</p>
