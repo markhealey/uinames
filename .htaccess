@@ -7,7 +7,7 @@ Options -Indexes
 DirectoryIndex index.php home.php about.php index.html maintenance.html
 
 #RewriteCond %{HTTP_HOST} ^www\.uinames\.com$ [NC]
-#RewriteRule (.*) https://intense-tundra-60037.herokuapp.com//$1 [R=301,L]
+#RewriteRule (.*) https://uinames-redux.herokuapp.com//$1 [R=301,L]
 
 # rewrite www to https
 # RewriteCond %{HTTP_HOST} ^www\.

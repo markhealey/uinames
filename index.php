@@ -46,7 +46,7 @@
 	<meta property="og:title" content="Randomly Generate Fake Names" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="https://cl.ly/1o2k1Z422Z2T/icon-250.png" />
-	<meta property="og:url" content="https://intense-tundra-60037.herokuapp.com/" />
+	<meta property="og:url" content="https://uinames-redux.herokuapp.com/" />
 	<meta property="og:description" content="Generate random fake names for use in designs and mockups. Supports 48+ regions with over 1.2 million possible combinations. Completely open-source." />
 	
 	<!--Twitter Card-->
@@ -128,16 +128,16 @@
 	</div>
 	
 	<div id="share">
-		<a href="https://twitter.com/share?text=Generate%20random%20names%20for%20use%20in%20designs%20and%20mockups%20on&url=https://intense-tundra-60037.herokuapp.com/&via=thomweerd&related=thomweerd" class="twitter-button" onclick="window.open(this.href, 'Tweet', 'scrollbars=no,width=500,height=280'); return false;">
+		<a href="https://twitter.com/share?text=Generate%20random%20names%20for%20use%20in%20designs%20and%20mockups%20on&url=https://uinames-redux.herokuapp.com/&via=thomweerd&related=thomweerd" class="twitter-button" onclick="window.open(this.href, 'Tweet', 'scrollbars=no,width=500,height=280'); return false;">
 			<span class="share-button"><?php echo file_get_contents('assets/img/share-tw.svg'); ?>Tweet</span>
 			<span class="share-count">2.1k</span>
 			<!-- Conservative guess based on increased FB count: (NewFB/oldFB) * oldTw or (1.7/1.5) * 1.9 -->
 		</a>
 		
-		<a href="https://www.facebook.com/sharer/sharer.php?u=https://intense-tundra-60037.herokuapp.com/" class="facebook-button" onclick="window.open(this.href, 'Share', 'scrollbars=no,width=500,height=280'); return false;">
+		<a href="https://www.facebook.com/sharer/sharer.php?u=https://uinames-redux.herokuapp.com/" class="facebook-button" onclick="window.open(this.href, 'Share', 'scrollbars=no,width=500,height=280'); return false;">
 			<span class="share-button"><?php echo file_get_contents('assets/img/share-fb.svg'); ?>Share</span>
 			<span class="share-count">1.7k</span>
-			<!-- Source (Dec 5, 2018): https://graph.facebook.com/?id=http://intense-tundra-60037.herokuapp.com + https://graph.facebook.com/?id=https://intense-tundra-60037.herokuapp.com/ -->
+			<!-- Source (Dec 5, 2018): https://graph.facebook.com/?id=http://uinames-redux.herokuapp.com + https://graph.facebook.com/?id=https://uinames-redux.herokuapp.com/ -->
 		</a>
 		
 		<a href="https://github.com/markhealey/uinames/" class="github-button" target="_blank">
@@ -154,7 +154,7 @@
 		</div>
 		<div id="info-panel" style="display: block;">
 			<h2>About</h2>
-			<p><a href="https://intense-tundra-60037.herokuapp.com/">intense-tundra-60037.herokuapp.com</a> is a simple tool to generate fake names for use in designs and mockups. Made by <a href="https://twitter.com/thomweerd" target="_blank">Thom</a>.</p>
+			<p><a href="https://uinames-redux.herokuapp.com/">uinames-redux.herokuapp.com</a> is a simple tool to generate fake names for use in designs and mockups. Made by <a href="https://twitter.com/thomweerd" target="_blank">Thom</a>.</p>
 			
 			<h2>Elsewhere</h2>
 			<p>Many have published about the project, including <a href="https://tympanus.net/codrops/collective/collective-96/" target="_blank">Codrops</a>, <a href="https://speckyboy.com/40-tiny-web-based-apps-tools-web-designers/" target="_blank">Speckyboy</a>, <a href="https://www.smashingmagazine.com/smashing-newsletter-issue-new-year-special-edition-2013/" target="_blank">Smashing Magazine</a>, <a href="https://sidebar.io/2013/12/26" target="_blank">Sidebar</a>, <a href="https://www.webdesignerdepot.com/2014/02/whats-new-for-designers-february-2014/" target="_blank">Webdesigner Depot</a>, <a href="https://www.producthunt.com/tech/uinames" target="_blank">Product Hunt</a>, <a href="https://news.layervault.com/stories/12511-ui-names" target="_blank">LayerVault</a>, <a href="https://oozled.com/resources/just-handy" target="_blank">Oozled</a> and <a href="https://thenextweb.com/dd/2015/02/18/300-awesome-free-things-massive-list-free-resources-know/" target="_blank">The Next Web</a>.</p>
@@ -177,7 +177,7 @@
 			<h2>Overview</h2>
 			<p>All responses are returned as JSON(P) over HTTP(S). There is currently no request limit. However, please keep the amount of requests to a minimum, and cache responses whenever possible.</p>
 			<h2>Basic Usage</h2>
-<pre>https://intense-tundra-60037.herokuapp.com//api/
+<pre>https://uinames-redux.herokuapp.com//api/
 <span>---</span>
 {
   <span class="key">"name"</span>: <span class="val">"John"</span>,
@@ -188,25 +188,25 @@
 </pre>
 			<h2>Optional Parameters</h2>
 			<p>Number of names to return, between <code>1</code> and <code>500</code>:</p>
-			<pre><span>https://intense-tundra-60037.herokuapp.com//api/</span>?amount=25</pre>
+			<pre><span>https://uinames-redux.herokuapp.com//api/</span>?amount=25</pre>
 			<p>Limit results to the <code>male</code> or <code>female</code> gender:</p>
-			<pre><span>https://intense-tundra-60037.herokuapp.com//api/</span>?gender=female</pre>
+			<pre><span>https://uinames-redux.herokuapp.com//api/</span>?gender=female</pre>
 			<p>Region-specific results:</p>
-			<pre><span>https://intense-tundra-60037.herokuapp.com//api/</span>?region=germany</pre>
+			<pre><span>https://uinames-redux.herokuapp.com//api/</span>?region=germany</pre>
 			<p>Require a minimum number of characters in a name:</p>
-			<pre><span>https://intense-tundra-60037.herokuapp.com//api/</span>?minlen=25</pre>
+			<pre><span>https://uinames-redux.herokuapp.com//api/</span>?minlen=25</pre>
 			<p>Require a maximum number of characters in a name:</p>
-			<pre><span>https://intense-tundra-60037.herokuapp.com//api/</span>?maxlen=75</pre>
+			<pre><span>https://uinames-redux.herokuapp.com//api/</span>?maxlen=75</pre>
 			<p>For JSONP, specify a callback function to wrap results in:</p>
-			<pre><span>https://intense-tundra-60037.herokuapp.com//api/</span>?callback=example</pre>
+			<pre><span>https://uinames-redux.herokuapp.com//api/</span>?callback=example</pre>
 			<!-- no region currently supports different languages
 			<p>Results for a language within a region:</p>
-			<pre><span>https://intense-tundra-60037.herokuapp.com//api/</span>?region=switzerland&amp;language=german</pre>
+			<pre><span>https://uinames-redux.herokuapp.com//api/</span>?region=switzerland&amp;language=german</pre>
 			-->
 			<h2>Extra Data</h2>
 			<p>Additional random data is served to requests passing an <code>ext</code> parameter. However, response times may be slower, especially when requesting larger quantities of data.</p>
 			<p>All photos are hand-picked from <a href="https://unsplash.com" target="_blank">Unsplash</a> (<a href="https://unsplash.com/license" target="_blank">license</a>):</p>
-<pre><span>https://intense-tundra-60037.herokuapp.com//api/</span>?ext
+<pre><span>https://uinames-redux.herokuapp.com//api/</span>?ext
 <span>---</span>
 {
   <span class="key">"name"</span>: <span class="val">"John"</span>,
@@ -229,7 +229,7 @@
     <span class="key">"pin"</span>: <span class="int">1234</span>,
     <span class="key">"security"</span>: <span class="int">123</span>
   },
-  <span class="key">"photo"</span>: <span class="val">"https://intense-tundra-60037.herokuapp.com//api/photos/male/1.jpg"</span>
+  <span class="key">"photo"</span>: <span class="val">"https://uinames-redux.herokuapp.com//api/photos/male/1.jpg"</span>
 }
 </pre>
 			<h2>Exception Handling</h2>
