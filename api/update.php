@@ -1,6 +1,6 @@
 <?php
 
-const DATABASE_SOURCE = 'https://raw.githubusercontent.com/thm/uinames/master/names.json';
+const DATABASE_SOURCE = 'https://raw.githubusercontent.com/markhealey/uinames/master/names.json';
 const DATABASE_DEST   = 'names.json';
 const STATS_DEST      = 'stats.json';
 

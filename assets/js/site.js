@@ -94,7 +94,7 @@ function randomNum(min, max) {
 		function injectData(data, offset) {
 			
 			// secondary data
-			var printPhoto = '<div id="photo-container"><a href="' + data[offset]['photo'] + '" class="photo" target="_blank"><img src="' + data[offset]['photo'].replace(/http:\/\/uinames\.com\//, '') + '" /></a><a role="button" class="icon refresh active" title="Refresh" aria-label="Refresh" aria-pressed="true"><span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span><span class="r5"></span><span class="r6"></span><span class="r7"></span></a></div>',
+			var printPhoto = '<div id="photo-container"><a href="' + data[offset]['photo'] + '" class="photo" target="_blank"><img src="' + data[offset]['photo'].replace(/http:\/\/intense-tundra-60037\.herokuapp\.com\//, '') + '" /></a><a role="button" class="icon refresh active" title="Refresh" aria-label="Refresh" aria-pressed="true"><span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span><span class="r5"></span><span class="r6"></span><span class="r7"></span></a></div>',
 				printName = '<h1 id="name" class="click-to-select">' + data[offset]['name'] + ' ' + data[offset]['surname'] + '</h1>',
 				printData = '';
 			
